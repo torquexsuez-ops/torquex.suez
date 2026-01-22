@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشاريع Torque X | معرض الأعمال</title>
+    <style>
+        :root { --main: #f39c12; --dark: #111; }
+        body { font-family: 'Arial', sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+        header { background: var(--dark); color: white; padding: 20px; text-align: center; border-bottom: 5px solid var(--main); }
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .project-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-bottom: 3px solid var(--main); }
+        .project-img { height: 200px; overflow: hidden; }
+        .project-img img { width: 100%; height: 100%; object-fit: cover; } /* لضمان تغطية الصورة للمساحة */
+        .project-info { padding: 15px; }
+        .project-info h3 { margin: 0 0 10px; color: var(--dark); }
+        .tag { background: var(--main); color: #000; padding: 2px 10px; font-size: 12px; font-weight: bold; border-radius: 3px; display: inline-block; margin-bottom: 5px;}
+        .back-btn { display: inline-block; margin-top: 20px; color: var(--main); text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>معرض مشاريع <span style="color:var(--main)">Torque X</span></h1>
+    <p>سابقة أعمالنا في المقاولات والتوريدات والصيانة</p>
+</header>
+
+<div class="container">
+    <div class="grid">
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://image.pollinations.ai/prompt/Two%20engineers%20in%20hard%20hats%20and%20overalls%20working%20on%20a%20large%20industrial%20engine%20in%20a%20factory%20setting,%20sparks%20in%20background,%20realistic" alt="صيانة محركات صناعية">
+            </div>
+            <div class="project-info">
+                <span class="tag">صيانة ميكانيكية</span>
+                <h3>صيانة وعمرة محركات صناعية ثقيلة</h3>
+                <p>إجراء صيانة شاملة وعمرة كاملة لمجموعة من المحركات الصناعية الكبيرة في أحد مصانع السويس، مما أدى إلى زيادة كفاءة التشغيل وتقليل الأعطال.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://image.pollinations.ai/prompt/Steel%20construction%20site%20at%20dawn,%20heavy%20girders,%20cranes%20in%20background,%20workers%20in%20helmets,%20industrial%20setting,%20photorealistic" alt="هيكل صلب لمبنى صناعي">
+            </div>
+            <div class="project-info">
+                <span class="tag">مقاولات عامة</span>
+                <h3>إنشاء هيكل معدني لمصنع صلب</h3>
+                <p>تنفيذ أعمال المقاولات العامة وإنشاء الهيكل الصلب لمبنى إداري وصناعي تابع لشركة كبرى للصلب في المنطقة الصناعية بالسويس.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://image.pollinations.ai/prompt/Construction%20workers%20unloading%20heavy%20pipes%20and%20materials%20from%20a%20truck%20at%20a%20construction%20site,%20safety%20vests,%20helmets,%20realistic" alt="عمال يفرغون مواد بناء">
+            </div>
+            <div class="project-info">
+                <span class="tag">توريدات عمومية</span>
+                <h3>توريد وتركيب أنابيب صناعية وعمالة</h3>
+                <p>توفير وتوريد كميات كبيرة من الأنابيب الصناعية عالية التحمل وتوفير العمالة المتخصصة لتركيبها في مشروع بنية تحتية جديد.</p>
+            </div>
+        </div>
+    </div>
+
+    <center>
+        <a href="index.html" class="back-btn">← العودة للصفحة الرئيسية</a>
+    </center>
+</div>
+
+<footer style="text-align: center; padding: 40px; color: #888; background: #f0f0f0;">
+    &copy; 2026 Torque X Engineering - Suez. جميع الحقوق محفوظة.
+</footer>
+
+</body>
+</html>
